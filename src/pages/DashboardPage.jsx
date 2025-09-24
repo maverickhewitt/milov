@@ -118,16 +118,6 @@ export default function DashboardPage() {
         >
           RSVP
         </button>
-        <button
-          className={`px-4 py-2 rounded-full font-medium transition border ${
-            activeTab === "wishes"
-              ? "bg-black text-white border-black"
-              : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
-          }`}
-          onClick={() => setActiveTab("wishes")}
-        >
-          Wishes
-        </button>
       </div>
 
       {loading ? (
