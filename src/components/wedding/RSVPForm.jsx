@@ -29,7 +29,7 @@ export default function RSVPForm({ wed_client_id, slug }) {
 
     const cleanName = DOMPurify.sanitize(name);
 
-    const { error } = await supabase.from('wed_rsvp').insert([
+    const { error } = await supabase.from('etsy_wed_rsvp').insert([
       {
         wed_client_id,
         slug,
