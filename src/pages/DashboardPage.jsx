@@ -91,7 +91,7 @@ export default function DashboardPage() {
 
         setNameMeta("twitter:card", "summary_large_image");
         setNameMeta("twitter:title", `Dashboard Wedding of ${clientData.names}`);
-        setNameMeta("twitter:description",`Check out your RSVP and Wishes List Here!`);
+        setNameMeta("twitter:description",`Check out your RSVP!`);
         setNameMeta("twitter:image", getPublicUrl(clientData.og));
       }
       setLoading(false);
